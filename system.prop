@@ -22,14 +22,14 @@ ril.subscription.types=NV,RUIM
 
 # Default network type.
 # 0 => WCDMA preferred.
-ro.telephony.default_network=0
+ro.telephony.default_network=4
 
 # Define TCP buffer sizes
 net.tcp.buffersize.hsdpa=4094,87380,393216,4096,16384,110208
 
 wifi.features=p2p
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=30
+wifi.supplicant_scan_interval=16
 
 mobiledata.interfaces=rmnet0,rmnet1,rmnet2
 
